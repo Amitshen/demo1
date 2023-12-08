@@ -1,8 +1,14 @@
+<!-- Layout.vue -->
 <template>
-  <div>hii</div>
+  <div>
+    <Header />
+    <Footer />
+  </div>
 </template>
 
 <script>
+import Header from "./components/header.vue";
+import Footer from "./components/footer.vue";
 export default {};
 </script>
 
